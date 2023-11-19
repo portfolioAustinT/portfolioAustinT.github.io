@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>AT-WebPortfolio</title>
+        <link rel = "stylesheet" href = "projects.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+
+    <body>
+        <h1>AT InoV8 Studios</h1>
+    
+        <p7>Raspberry Pi | MagicMirror | Personal Portfolio Website</p7>
+        <p10>Project:</p10>
+        <p11>Date:</p11>
+        <p12>Description: </p12>
+        <p8>Additional Projects:</p8>
+        <p9>Last Updated 11/12/2023</p9>
+
+
+        <!-- Grey Rectangles -->
+        <div id="rectangle1"></div>
+
+        <div class = "Splash"> 
+             <img src = "Images/abstract.jpg" width = 1600px height = 1650x>
+        </div>
+
+        <div class="navigation-links">
+            <a href="about.html">&lt; ABOUT &gt;</a>
+            <a href="projects.html">&lt; PROJECTS &gt</a>
+            <a href="gallery.html">&lt; GALLERY &gt</a>
+            <a href="test.html">&lt; TESTIMONIALS &gt</a>
+            <a href="contact.html">&lt; CONTACT &gt</a>
+        </div>
+
+        <div class="classprojects"></div>
+
+        <script>
+            const quotes = [
+                "Raspberry Pi",
+                "MagicMirror",
+                "Personal Portfolio Website",
+            ];
+        
+            async function changeQuote() {
+                const classprojects = document.querySelector('.classprojects');
+                let currentIndex = 0;
+        
+                while (true) {
+                    classprojects.innerHTML = `${quotes[currentIndex]}`;
+                    currentIndex = (currentIndex + 1) % quotes.length;
+                    await new Promise(resolve => setTimeout(resolve, 12000)); // Wait for 4200 milliseconds
+                }
+            }
+        
+            changeQuote();
+
+        </script>
+
+        <div class="Dates"></div>
+
+        <script>
+            const dates = [
+                "04/28/23",
+                "04/28/23",
+                "11/12/23",
+            ];
+        
+            async function changeDate() {
+                const datesElement = document.querySelector('.Dates');
+                let currentIndex = 0;
+        
+                while (true) {
+                    datesElement.innerHTML = `${dates[currentIndex]}`;
+                    currentIndex = (currentIndex + 1) % dates.length;
+                    await new Promise(resolve => setTimeout(resolve, 12000)); // Wait for 4200 milliseconds
+                }
+            }
+        
+            changeDate();
+        </script>        
+
+        <div class="Descriptions"></div>
+
+        <script>
+            const descriptions = [
+                " The journey included the process of exploring various cables/components to understand the Raspberry Pi's hardware, downloading an operating system onto an SD card, and mastering the intricacies of Linux. I was able to discover the power of this compact computer, gaining proficiency in both hardware and software aspects, and unlocking a world of creativity and learning in the process.",
+                " The process of building a MagicMirror using a Raspberry Pi is a captivating exploration into the realms of technology and creativity. This innovative project involves transforming a standard mirror into a smart, interactive display. I unlocked the ability to overlay dynamic information onto the mirror's reflective surface. Customizable widgets can showcase real-time data, such as the weather, calendar events, news updates, and more. As I delved into coding and configuring software, the MagicMirror becomes a personalized information hub, providing a touch of enchantment to my daily routine.",
+                "Embarking on the journey of web development, I've delved into the fascinating technologies of HTML, CSS, and JavaScript. HTML, the structural backbone, lays out the content and structure of the webpage. CSS is the stylist, letting me experiment with colors, fonts, and spacing. JavaScript allows me to add interactive elements, validate forms, and create a dynamic user experience. These tools allow me to craft a digital masterpiece, a canvas where I blend content, design, and functionality to create a web experience that's both engaging and uniquely my own.",
+            ];
+        
+            async function changeDescription() {
+                const descriptionsElement = document.querySelector('.Descriptions');
+                let currentIndex = 0;
+        
+                while (true) {
+                    descriptionsElement.innerHTML = `${descriptions[currentIndex]}`;
+                    currentIndex = (currentIndex + 1) % descriptions.length;
+                    await new Promise(resolve => setTimeout(resolve, 12000)); // Wait for 4200 milliseconds
+                }
+            }
+        
+            changeDescription();
+        </script>
+
+
+        <div class="wrap">
+            <ul class = "carousel">
+                <li class="carousel-seat is-set">
+                    <img src="Images/Rasb.jpg" width="900" height="500">
+                </li>
+
+                <li class="carousel-seat">
+                    <img src="Images/MM.jpg" width="900" height="500">
+                </li>
+
+                <li class="carousel-seat">
+                    <img src="Images/PP.PNG" width="900" height="500">
+                </li>
+
+            </ul>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="jQuery.js"></script>
+
+    </body>
+    
+</html>

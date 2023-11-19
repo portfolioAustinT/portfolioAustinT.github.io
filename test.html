@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>AT-WebPortfolio</title>
+        <link rel = "stylesheet" href = "test.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+
+    <body>
+        <h1>AT InoV8 Studios</h1>
+
+        <div class = "quotes"> 
+            <p>"Positive attiude that boosts team morale." - Ethan</p>
+            <p>"Excellent team player with strong collaboration skills."- Olivia</p> 
+            <p>"A creative thinker who brings innovative ideas to the table." - Ava</p>
+            <p>"Quick learner and adapts well to new challenges."- Matt</p> 
+        </div>
+
+        <div class = "stars"> 
+            <p1>★★★★★</p1>
+            <p1>★★★★★</p1> 
+            <p1>★★★★★</p1>
+            <p1>★★★★★</p1> 
+        </div>
+
+        <div class="lgquote">
+        </div>
+        
+        <script>
+            const quotes = [
+                '<span class="highlighted-word">Austin</span> is an exemplary Computer Information Systems student, showcasing a relentless pursuit of knowledge, exceptional technical skills, and a commitment to excellence. A true asset to any organization.',
+                'With <span class="highlighted-word">Austin\'s</span> commitment, success is inevitable. His passion for knowledge sets himself apart.',
+                '<span class="highlighted-word">Austin\'s</span> entrepreneurial spirit knows no bounds. His dedication and creativity set himself on a path to turn his dreams into reality. He keeps pushing the boundaries of whats possible. ',
+            ];
+        
+            const lgquote = document.querySelector('.lgquote');
+            let currentIndex = 0;
+        
+            function changeQuote() {
+                lgquote.innerHTML = `"${quotes[currentIndex]}" - University Professor`;
+                currentIndex = (currentIndex + 1) % quotes.length;
+            }
+        
+            // Initial quote
+            changeQuote();
+        
+            // Change the quote every 4 seconds
+            setInterval(changeQuote, 4000);
+        </script>
+        
+    <p9>Last Updated 11/12/2023</p9>
+
+        <div class = "Splash"> 
+            <img src = "Images/abstract.jpg" width = 1600px height = 1650x>
+        </div>
+
+        <div class="navigation-links">
+            <a href="about.html">&lt; ABOUT &gt;</a>
+            <a href="projects.html">&lt; PROJECTS &gt</a>
+            <a href="gallery.html">&lt; GALLERY &gt</a>
+            <a href="test.html">&lt; TESTIMONIALS &gt</a>
+            <a href="contact.html">&lt; CONTACT &gt</a>
+        </div>
+
+    </body>
+    
+</html>

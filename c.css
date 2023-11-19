@@ -1,0 +1,336 @@
+body {
+    position: relative;
+    background-image: url("Images/abstract.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0; 
+}
+
+.Photo{
+    width: 400px; /* Adjust the size as needed */
+    height: 400px; /* Make sure width and height are equal for a perfect circle */
+    background-image: url('Images/Photo.jpg'); /* Replace 'your-photo.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* This creates a circular shape */
+    border: 5px solid #fff; /* Add a border if desired */
+    z-index: 1;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Audiowide', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    word-spacing: 5px;
+    margin-top: 10px;
+    position: relative;
+    justify-content: center;
+}
+
+#rectangle1{
+    width:600px;
+    height:50px;
+    background-color: whitesmoke;
+    left: 100px;
+    top: 700px;
+    position: absolute;
+    border: black;
+    z-index: 2;
+}
+
+#rectangle2{
+    width:600px;
+    height:50px;
+    background-color: whitesmoke;
+    left: 100px;
+    top: 780px;
+    position: absolute;
+    border: black;
+    z-index: 2;
+}
+
+#rectangle3{
+    width:600px;
+    height:250px;
+    background-color: whitesmoke;
+    left: 100px;
+    top: 860px;
+    position: absolute;
+    border: black;
+    z-index: 2;
+}
+
+#rectangle4{
+    width:600px;
+    height:50px;
+    background-color: yellow;
+    left: 100px;
+    top: 1140px;
+    position: absolute;
+    border: black;
+    z-index: 2;
+}
+
+p{
+    color:whitesmoke;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 100px;
+    margin-top: 100px;
+    margin-left: 750px;
+    margin-right: 600px;
+    text-align: left;
+    z-index: 1;
+    position: absolute;
+}
+
+p1{
+    color:rgb(122, 118, 118);
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+    margin-top: 652px;
+    margin-left: 120px;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+}
+
+p2{
+    color:rgb(122, 118, 118);
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+    margin-top: 732px;
+    margin-left: 120px;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+}
+
+p3{
+    color:rgb(122, 118, 118);
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+    margin-top: 812px;
+    margin-left: 120px;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+}
+
+p4{
+    color:black;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+    margin-top: 1095px;
+    margin-left: 350px;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+}
+
+p9{
+    color:whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 1620px;
+}
+
+
+a {
+    color: whitesmoke;
+    text-decoration: none; 
+    font-family: 'League Gothic', sans-serif;
+    font-size: 58px;
+    text-align: right;
+    margin: 50px; /* Add margin for spacing */
+    position: relative;
+}
+
+.navigation-links {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    position: absolute;
+    right: 10px; /* Adjust position as needed */
+    top: 690px; /* Adjust position as needed */
+}
+
+.navigation-links a:hover {
+    color: #4Ef0e6; /* Change the text color on hover */
+}
+
+/*IPHONE XR MEDIA QUERY */
+
+@media screen and (max-width:414px) {
+
+    body {
+        position: relative;
+        background-image: url("Images/abstract.jpg");
+        background-size:cover;
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0; 
+    }
+
+    .Photo{
+        width: 300px; /* Adjust the size as needed */
+        height: 300px; /* Make sure width and height are equal for a perfect circle */
+        background-image: url('Images/Photo.jpg'); /* Replace 'your-photo.jpg' with your image file */
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%; /* This creates a circular shape */
+        border: 5px solid #fff; /* Add a border if desired */
+        z-index: 1;
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 45px;
+    }
+    
+    h1{
+        font-size: 25px;
+        font-family: 'Audiowide', sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 10px;
+    }
+
+    #rectangle1{
+        width:300px;
+        height:40px;
+        background-color: whitesmoke;
+        left: 50px;
+        top: 500px;
+        position: absolute;
+        border: black;
+        z-index: 2;
+    }
+    
+    #rectangle2{
+        width:300px;
+        height: 40px;
+        background-color: whitesmoke;
+        left: 50px;
+        top: 570px;
+        position: absolute;
+        border: black;
+        z-index: 2;
+    }
+    
+    #rectangle3{
+        width:300px;
+        height:180px;
+        background-color: whitesmoke;
+        left: 50px;
+        top: 650px;
+        position: absolute;
+        border: black;
+        z-index: 2;
+    }
+    
+    #rectangle4{
+        width:300px;
+        height:40px;
+        background-color: yellow;
+        left: 50px;
+        top: 860px;
+        position: absolute;
+        border: black;
+        z-index: 2;
+    }
+    
+    p{
+        color:whitesmoke;
+        font-family: 'Audiowide', sans-serif;
+        font-size: 20px;
+        margin-top: 360px;
+        margin-left: 30px;
+        text-align: left;
+        z-index: 1;
+        position: absolute;
+    }
+    
+    p1{
+        color:rgb(122, 118, 118);
+        font-family: 'Audiowide', sans-serif;
+        font-size: 15px;
+        margin-top: 465px;
+        margin-left: 60px;
+        text-align: left;
+        z-index: 2;
+        position: absolute;
+    }
+    
+    p2{
+        color:rgb(122, 118, 118);
+        font-family: 'Audiowide', sans-serif;
+        font-size: 15px;
+        margin-top: 535px;
+        margin-left: 60px;
+        text-align: left;
+        z-index: 2;
+        position: absolute;
+    }
+    
+    p3{
+        color:rgb(122, 118, 118);
+        font-family: 'Audiowide', sans-serif;
+        font-size: 15px;
+        margin-top: 610px;
+        margin-left: 60px;
+        text-align: left;
+        z-index: 2;
+        position: absolute;
+    }
+    
+    p4{
+        color:black;
+        font-family: 'Audiowide', sans-serif;
+        font-size: 15px;
+        margin-top: 825px;
+        margin-left: 173px;
+        text-align: left;
+        z-index: 2;
+        position: absolute;
+    }
+    
+
+    p9{
+        color:whitesmoke;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 20px;
+        bottom: 20px;
+    }
+    
+    a {
+        color: whitesmoke;
+        text-decoration: none; 
+        font-family: 'League Gothic', sans-serif;
+        font-size: 45px;
+        text-align: center;
+        margin: 25px; /* Add margin for spacing */
+        position: relative;
+    }
+    
+    .navigation-links {
+        display: grid;
+        grid-template-columns: auto;
+        grid-auto-rows: auto;
+        position: absolute;
+        left: 20px; /* Adjust position as needed */
+        top: 1000px; /* Adjust position as needed */
+    }
+    
+    .navigation-links a:hover {
+        color: #4Ef0e6; /* Change the text color on hover */
+    }
+
+}

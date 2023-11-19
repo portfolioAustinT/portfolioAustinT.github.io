@@ -1,0 +1,243 @@
+body {
+    position: relative;
+    background-image: url("Images/abstract.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0; 
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Audiowide', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    word-spacing: 5px;
+    margin-top: 10px;
+    position: relative;
+    justify-content: center;
+}
+
+.text {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    color: #4Ef0e6;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 50px;
+    gap: 2px;
+    position: absolute;
+    top: 175px;
+    left: 125px; 
+    z-index: 3;
+}
+
+#rectangle1{
+    width:1130px;
+    height:1500px;
+    background-color: rgb(10, 10, 10, 0.9);
+    left: 10px;
+    top: 90px;
+    position: absolute;
+    border: black;
+    z-index: 1;
+}
+
+p9{
+    color:whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 1620px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none; 
+    font-family: 'League Gothic', sans-serif;
+    font-size: 58px;
+    text-align: right;
+    margin: 50px; 
+    position: relative;
+}
+
+.navigation-links {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    position: absolute;
+    right: 10px; 
+    top: 690px; 
+}
+
+.navigation-links a:hover {
+    color: #4Ef0e6; 
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 10px;
+    position: absolute;
+    top: 100px;
+    left: 24px; 
+    z-index: 2;
+}
+
+.projects > div {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s ease;
+}
+
+.projects .project-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 30px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjusted background color */
+    padding: 10px; /* Added padding for better visibility */
+}
+
+.projects > div:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.projects > div:hover .project-text {
+    opacity: 1;
+}
+
+/*IPHONE XR MEDIA QUERY */
+
+@media screen and (max-width:414px) {
+
+    body {
+        position: relative;
+        background-image: url("Images/abstract.jpg");
+        background-size:cover;
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0; 
+    }
+
+    h1{
+        font-size: 25px;
+        font-family: 'Audiowide', sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 10px;
+        position: relative;
+        justify-content: center;
+    }
+
+    .text {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        color: #4Ef0e6;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 50px;
+        gap: 2px;
+        position: absolute;
+        top: 175px;
+        left: 125px; 
+        z-index: 3;
+    }
+    
+    #rectangle1{
+        width:414px;
+        height:2900px;
+        background-color: rgb(10, 10, 10, 0.9);
+        left:1px;
+        top: 90px;
+        position: absolute;
+        border: black;
+        z-index: 1;
+    }
+    
+    p9{
+        color:whitesmoke;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 3700px;
+    }
+    
+    a {
+        color: whitesmoke;
+        text-decoration: none; 
+        font-family: 'League Gothic', sans-serif;
+        font-size: 45px;
+        text-align: center;
+        margin: 25px; /* Add margin for spacing */
+        position: relative;
+    }
+    
+    .navigation-links {
+        display: grid;
+        grid-template-columns: auto;
+        grid-auto-rows: auto;
+        position: absolute;
+        left: 20px; /* Adjust position as needed */
+        top: 3000px; /* Adjust position as needed */
+    }
+    
+    .navigation-links a:hover {
+        color: #4Ef0e6; /* Change the text color on hover */
+    }
+    
+    .projects {
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        gap: 10px;
+        position: absolute;
+        top: 100px;
+        left: 24px; 
+        z-index: 2;
+    }
+    
+    .projects > div {
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        transition: box-shadow 0.3s ease;
+    }
+    
+    .projects .project-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 30px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.7); /* Adjusted background color */
+        padding: 10px; /* Added padding for better visibility */
+    }
+    
+    .projects > div:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .projects > div:hover .project-text {
+        opacity: 1;
+    }
+    
+}

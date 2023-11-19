@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>AT-WebPortfolio</title>
+        <link rel = "stylesheet" href = "g.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </head>
+
+    <body>
+        <h1>AT InoV8 Studios</h1>
+
+    <p9>Last Updated 11/12/2023</p9>
+
+    <!-- Grey Rectangles -->
+    <div id="rectangle1"></div>
+
+    <div class="projects">
+
+        <div class="Rasberry" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/Rpi.jpg" alt="Raspberry Pi" width="360px" height="320px">
+            <div class="project-text">Raspberry Pi</div>
+        </div>
+
+        <div class="Linux" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/Linux.jpg" alt="Linux" width="360px" height="320px">
+            <div class="project-text">Linux</div>
+        </div>
+
+        <div class="focus" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/focus.jpg" alt="Focus" width="360px" height="320px">
+            <div class="project-text">Linux</div>
+        </div>
+
+        <div class="Screen" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/Screen.jpg" alt="Screen" width="360px" height="320px">
+            <div class="project-text">MagicMirror</div>
+        </div>
+
+        <div class="Hardware" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/Hardware.jpg" alt="Hardware" width="360px" height="320px">
+            <div class="project-text">MagicMirror</div>
+        </div>
+
+        <div class="News" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/News.PNG" alt="News" width="360px" height="320px">
+            <div class="project-text">Website Prototype I</div>
+        </div>
+
+        <div class="News2" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/News2.PNG" alt="News2" width="360px" height="320px">
+            <div class="project-text">Website Prototype I</div>
+        </div>
+
+        <div class="NSTEM" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/NSTEM.JPG" alt="NSTEM" width="360px" height="320px">
+            <div class="project-text">NSTEM Build-a-Bot</div>
+        </div>
+
+        <div class="Robo" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/Robo.JPG" alt="Robo" width="360px" height="320px">
+            <div class="project-text">NSTEM Build-a-Bot</div>
+        </div>
+
+        <div class="CEO" onmouseover="showText(this)" onmouseout="hideText(this)">
+            <img src="Images/CEO.jpg" alt="CEO" width="360px" height="320px">
+            <div class="project-text">CEO Social Hour</div>
+        </div>
+
+    </div>
+
+    </div>
+
+        <div class = "Splash"> 
+            <img src = "Images/abstract.jpg" width = 1600px height = 1650x>
+        </div>
+
+        <div class="navigation-links">
+            <a href="about.html">&lt; ABOUT &gt;</a>
+            <a href="projects.html">&lt; PROJECTS &gt</a>
+            <a href="gallery.html">&lt; GALLERY &gt</a>
+            <a href="test.html">&lt; TESTIMONIALS &gt</a>
+            <a href="contact.html">&lt; CONTACT &gt</a>
+        </div>
+
+        <script>
+            function showText(element) {
+                element.querySelector('.project-text').style.opacity = 1;
+            }
+    
+            function hideText(element) {
+                element.querySelector('.project-text').style.opacity = 0;
+            }
+        </script>
+
+    </body>
+    
+</html>

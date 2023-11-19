@@ -1,0 +1,357 @@
+body {
+    position: relative;
+    background-image: url("Images/abstract.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0; 
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Audiowide', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    word-spacing: 5px;
+    margin-top: 10px;
+    position: relative;
+    justify-content: center;
+}
+
+p7{
+    color:whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 1475px;
+}
+
+p8{
+    color:yellow;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 1475px;
+}
+
+
+p9{
+    color:whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 1620px;
+}
+
+p10{
+    color:yellow;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 700px;
+}
+
+p11{
+    color:yellow;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 800px;
+}
+
+p12{
+    color:yellow;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 900px;
+}
+
+.classprojects{
+    color:whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 35px;
+    top: 757px;
+    left: 220px;
+    margin-right: 50px;
+    z-index: 4;
+    position: absolute;
+}
+
+.Dates{
+    color:whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 35px;
+    top: 857px;
+    left: 220px;
+    margin-right: 50px;
+    z-index: 4;
+    position: absolute;
+}
+
+.Descriptions{
+    color:whitesmoke;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 35px;
+    top: 957px;
+    left: 210px;
+    margin-right: 650px;
+    margin-left: 10px;
+    z-index: 4;
+    position: absolute;
+}
+
+
+#rectangle1{
+    width:1600px;
+    height:530px;
+    background-color: rgb(10, 10, 10, 0.8);
+    left: 10px;
+    top: 105px;
+    position: absolute;
+    border: black;
+    z-index: 1;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none; 
+    font-family: 'League Gothic', sans-serif;
+    font-size: 58px;
+    text-align: right;
+    margin: 50px; /* Add margin for spacing */
+    position: relative;
+}
+
+.navigation-links {
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    position: absolute;
+    right: 10px; /* Adjust position as needed */
+    top: 690px; /* Adjust position as needed */
+}
+
+.navigation-links a:hover {
+    color: #4Ef0e6; /* Change the text color on hover */
+}
+
+.wrap {
+    overflow: hidden;
+    width: 1250px;
+}
+
+.carousel {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 120px;
+    left: -820px;
+    transform: translateX(20%);
+    z-index: 3;
+
+}
+
+.carousel .is-set {
+    transform: none;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-seat {
+    flex: 1 0 100%;
+    flex-basis: 20%;
+    padding-left: 400px; 
+}
+
+
+@media screen and (max-width:414px) {
+
+    body {
+        position: relative;
+        background-image: url("Images/abstract.jpg");
+        background-size:cover;
+        background-repeat: repeat;
+        margin: 0;
+        padding: 0; 
+    }
+    
+    h1{
+        font-size: 25px;
+        font-family: 'Audiowide', sans-serif;
+        color: whitesmoke;
+        text-align: center;
+        word-spacing: 5px;
+        margin-top: 10px;
+    }
+
+    p7{
+        color:whitesmoke;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 38px;
+        position: absolute;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 2075px;
+    }
+    
+    p8{
+        color:yellow;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 35px;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 2000px;
+    }
+    
+    
+    p10{
+        color:yellow;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 35px;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 680px;
+    }
+    
+    p11{
+        color:yellow;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 35px;
+        position: absolute;
+        margin-left: 155px;
+        margin-top: 900px;
+    }
+    
+    p12{
+        color:yellow;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 35px;
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 1120px;
+        margin-left: 130px;
+    }
+
+    p9{
+        color:whitesmoke;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 20px;
+        position: absolute;
+        margin-left: 20px;
+        bottom: -1325px;
+    }
+
+    a {
+        color: whitesmoke;
+        text-decoration: none; 
+        font-family: 'League Gothic', sans-serif;
+        font-size: 45px;
+        text-align: center;
+        margin: 25px; /* Add margin for spacing */
+        position: relative;
+    }
+
+    .classprojects{
+        color:whitesmoke;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 35px;
+        text-align: center;
+        margin-left: -85px;
+        margin-right: 60px ;
+        top: 800px;
+        z-index: 4;
+        position: absolute;
+    }
+
+    .Dates{
+        color:whitesmoke;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 35px;
+        top: 1025px;
+        margin-left: -85px;
+        margin-right: 60px ;
+        z-index: 4;
+        position: absolute;
+    }
+    
+    .Descriptions{
+        color:whitesmoke;
+        font-family: 'League Gothic', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        top: 1250px;
+        left: 180px;
+        margin-left: -120px;
+        margin-right: 60px ;
+        z-index: 4;
+        position: absolute;
+    }
+    
+    
+    #rectangle1{
+        width:1600px;
+        height:530px;
+        background-color: rgb(10, 10, 10, 0.8);
+        left: 10px;
+        top: 105px;
+        position: absolute;
+        border: black;
+        z-index: 1;
+    }
+    
+    .navigation-links {
+        display: grid;
+        grid-template-columns: auto;
+        grid-auto-rows: auto;
+        position: absolute;
+        left: 20px; /* Adjust position as needed */
+        top: 2320px; /* Adjust position as needed */
+    }
+    
+    .navigation-links a:hover {
+        color: #4Ef0e6; /* Change the text color on hover */
+    }
+
+    .wrap {
+        overflow: hidden;
+        width: 1250px;
+    }
+    
+    .carousel {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 120px;
+        left: -600px;
+        transform: translateX(20%);
+        z-index: 3;
+    
+    }
+
+    .carousel-seat img {
+        left: 100px;
+        max-width:100%; /* Ensure images don't exceed their natural size */
+    }
+    
+    .carousel .is-set {
+        transform: none;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .carousel-seat {
+        flex: 1 0 100%;
+        flex-basis: 2%;
+        padding-left: 5px; 
+    }
+}
